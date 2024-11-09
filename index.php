@@ -17,7 +17,7 @@
             <h1>Music Database</h1>
         </div>
         <div class="album-form">
-            <form action="register-album.php" method="post">
+            <form action="#" method="post">
 
                 <div class="wrapper-album-band-name">
                     <div class="album-name">
@@ -33,10 +33,74 @@
                     </div>
                 </div>
 
-                <div class="album-desc">
+                <div class="wrapper-album-desc">
                     <label for="album-desc">Descrition: </label>
                     <textarea name="album-desc" id="album-desc"></textarea>
                 </div>
+
+                <div class="wrapper-musics">
+                    <label for="">Musics:</label>
+                    <div class="musics">
+                        <div class="music">
+                            <div class="music-content">
+                                <div class="music-order">
+                                    <span>10</span>
+                                </div>
+                                <div class="music-name">
+                                    <span>the great big in the sky</span>
+                                </div>
+                                <div class="music-duration">
+                                    <span>10:00</span>
+                                </div>
+                                <div class="music-rate">
+                                    <span class="rate">10</span>
+                                    <span>/ 10</span>
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <div class="music">
+                            <div class="music-content">
+                                <div class="music-order">
+                                    <span>10</span>
+                                </div>
+                                <div class="music-name">
+                                    <span>the great big in the sky</span>
+                                </div>
+                                <div class="music-duration">
+                                    <span>10:00</span>
+                                </div>
+                                <div class="music-rate">
+                                    <span class="rate">10</span>
+                                    <span>/ 10</span>
+                                </div>
+                        
+                            </div>
+                        </div>
+
+                        <div class="music">
+                            <div class="music-content">
+                                <div class="music-order">
+                                    <span>10</span>
+                                </div>
+                                <div class="music-name">
+                                    <span>the great big in the sky</span>
+                                </div>
+                                <div class="music-duration">
+                                    <span>10:00</span>
+                                </div>
+                                <div class="music-rate">
+                                    <span class="rate">10</span>
+                                    <span>/ 10</span>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div class="wrapper-rate-duration">
                     <div class="album-rate">
@@ -48,6 +112,11 @@
                         <label for="album-duration">Duration: </label>
                         <input type="number" name="album-duration" id="album-duration">
                     </div>
+                </div>
+
+                <div class="wrapper-file-img">
+                    <label for="file-img">Image:</label>
+                    <input type="file" name="file-img" id="file-img">
                 </div>
 
                 <div class="wrapper-btn-submit">
