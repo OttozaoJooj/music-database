@@ -17,7 +17,7 @@
             <h1>Music Database</h1>
         </div>
         <div class="album-form">
-            <form action="#" method="post">
+            <form action="register-album.php" method="post">
 
                 <div class="wrapper-album-band-name">
                     <div class="album-name">
