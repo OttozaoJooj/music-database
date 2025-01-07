@@ -90,6 +90,27 @@ input:focus, textarea:focus, select:focus{
 .wrapper-musics{
     margin-bottom: 20px;
 }
+.label-btn-add{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.label-btn-add > label{
+    margin-bottom: 0;
+}
+
+.label-btn-add > button{
+    padding: 7px 20px;
+    font-weight: 600;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
 .musics{
     display: flex;
     flex-direction: column;

@@ -8,14 +8,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/global.css">
     <link rel="stylesheet" href="src/styles/home.css">
+    <link rel="stylesheet" href="src/styles/modal.css">
+
 
     <title>Music Database</title>
 </head>
 <body>
+    <div class="modal-add-music">
+        <div class="modal-add-music-content">
+            <div class="modal-add-music-wrapper">
+                <div class="name-music">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+
+                </div>
+                
+                <div class="wrapper-duration-rate">
+                    <div class="duration-music">
+                        <label for="duration-music">Duration:</label>
+                        <input type="number" id="duration-music">
+                    </div>
+                    <div class="rate-music">
+                        <label for="rate-music">Rate:</label>
+                        <input type="number" id="rate-music">
+                    </div>
+                    
+                </div>
+                <div class="submit-music">
+                        <button class="submit-music">Add</button>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="title">
             <h1>Music Database</h1>
         </div>
+        
         <div class="album-form">
             <form action="#" method="post">
 
@@ -39,7 +70,11 @@
                 </div>
 
                 <div class="wrapper-musics">
-                    <label for="">Musics:</label>
+                    <div class="label-btn-add">
+                        <label for="">Musics:</label>
+                        <button class="btn-add-music">Add</button>
+                    </div>
+                    
                     <div class="musics">
                         <div class="music">
                             <div class="music-content">
@@ -143,7 +178,8 @@
                     </div>
                     <hr>
                     <div class="album-descrition">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat rem dolor provident distinctio vitae doloremque maiores sequi dolorem, optio quasi, architecto officia voluptatem similique ut beatae quam iste, quaerat dolores!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat rem dolor provident distinctio vitae 
+                            doloremque maiores sequi dolorem, optio quasi, architecto officia voluptatem similique ut beatae quam iste, quaerat dolores!</p>
 
                     </div>
                     <hr>

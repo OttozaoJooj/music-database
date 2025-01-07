@@ -1,0 +1,50 @@
+.modal-add-music{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.199);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.modal-add-music-content{
+    background-color: white;
+    padding: 30px 35px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 1);
+    max-width: 500px;
+    width: 100%;
+
+}
+
+.name-music > input, .duration-music > input, .rate-music > input, .submit-music > button{
+    width: 100%;
+}
+
+.name-music, .wrapper-duration-rate{
+    margin-bottom: 30px;
+}
+
+.wrapper-duration-rate{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.submit-music > button{
+    font-weight: 600;
+    font-size: 1.00rem;
+    background-color: rgb(59, 59, 59);
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.enable{
+    display: flex;
+}
