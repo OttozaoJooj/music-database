@@ -21,7 +21,7 @@
 
 }
 
-.name-music > input, .duration-music > input, .rate-music > input, .submit-music > button{
+.name-music > input, .duration-music > input, .rate-music > input, .btn-add > button{
     width: 100%;
 }
 
@@ -35,7 +35,7 @@
 
 }
 
-.submit-music > button{
+.btn-add > button{
     font-weight: 600;
     font-size: 1.00rem;
     background-color: rgb(59, 59, 59);

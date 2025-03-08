@@ -34,8 +34,8 @@
                     </div>
                     
                 </div>
-                <div class="submit-music">
-                        <button class="submit-music">Add</button>
+                <div class="btn-add">
+                        <button>Add</button>
                     </div>
 
 
@@ -76,62 +76,7 @@
                     </div>
                     
                     <div class="musics">
-                        <div class="music">
-                            <div class="music-content">
-                                <div class="music-order">
-                                    <span>10</span>
-                                </div>
-                                <div class="music-name">
-                                    <span>the great big in the sky</span>
-                                </div>
-                                <div class="music-duration">
-                                    <span>10:00</span>
-                                </div>
-                                <div class="music-rate">
-                                    <span class="rate">10</span>
-                                    <span>/ 10</span>
-                                </div>
                         
-                            </div>
-                        </div>
-
-                        <div class="music">
-                            <div class="music-content">
-                                <div class="music-order">
-                                    <span>10</span>
-                                </div>
-                                <div class="music-name">
-                                    <span>the great big in the sky</span>
-                                </div>
-                                <div class="music-duration">
-                                    <span>10:00</span>
-                                </div>
-                                <div class="music-rate">
-                                    <span class="rate">10</span>
-                                    <span>/ 10</span>
-                                </div>
-                        
-                            </div>
-                        </div>
-
-                        <div class="music">
-                            <div class="music-content">
-                                <div class="music-order">
-                                    <span>10</span>
-                                </div>
-                                <div class="music-name">
-                                    <span>the great big in the sky</span>
-                                </div>
-                                <div class="music-duration">
-                                    <span>10:00</span>
-                                </div>
-                                <div class="music-rate">
-                                    <span class="rate">10</span>
-                                    <span>/ 10</span>
-                                </div>
-                        
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -201,6 +146,8 @@
 
     </div>
 
-    <script src="src/js/script.js"></script>
+    <script src="src/js/modalFunctions.js"></script>
+    <script src="src/js/addMusic.js"></script>
+    
 </body>
 </html>
